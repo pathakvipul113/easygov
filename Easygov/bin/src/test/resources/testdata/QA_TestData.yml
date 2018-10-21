@@ -1,0 +1,14 @@
+url: http://qa-my.imemories.com/
+credentials:
+  login_username: matest5@032718.com
+  login_password: 123456
+  
+  signup_firstname: Vipul
+  signup_lastname: Pathak
+  signup_email: matest3@032818.com
+  signup_password: 123456
+  
+
+alert_success_msg: This alert has been added to your Watchlist where you can edit it at anytime. Your contacts will be notifed if there is a breach of the alert threshold. 
+
+mvn clean test -P Smoke

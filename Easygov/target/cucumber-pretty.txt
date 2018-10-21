@@ -1,0 +1,35 @@
+Feature: User Applies for a scheme
+
+  @tear_up
+  Scenario: Verify user is able to select language from select language modal [90m# src/test/resources/features/Scheme.feature:4[0m
+    [32mGiven [0m[32mlang '[0m[32m[1mEnglish[0m[32m' exists[0m                                               [90m# SchemeStepdefs.lang_English_exists(String)[0m
+    [32mThen [0m[32mUser is able to select English language successfully[0m                 [90m# SchemeStepdefs.user_is_able_to_select_English_language_successfully()[0m
+
+  Scenario: Verify user is able to select state from select state modal [90m# src/test/resources/features/Scheme.feature:8[0m
+    [32mGiven [0m[32mstate '[0m[32m[1mDelhi[0m[32m' exists[0m                                          [90m# SchemeStepdefs.state_Delhi_exists(String)[0m
+    [32mThen [0m[32mUser is able to select Delhi state successfully[0m                [90m# SchemeStepdefs.user_is_able_to_select_Delhi_state_successfully()[0m
+
+  Scenario: Verify user is able to select district from select state modal [90m# src/test/resources/features/Scheme.feature:12[0m
+    [32mGiven [0m[32mdistrict '[0m[32m[1mCentral Delhi[0m[32m' exists[0m                                  [90m# SchemeStepdefs.district_Central_Delhi_exists(String)[0m
+    [32mThen [0m[32mUser is able to select Central Delhi district successfully[0m        [90m# SchemeStepdefs.user_is_able_to_select_Central_Delhi_district_successfully()[0m
+
+  Scenario: Verify user is able to select any category from category panel [90m# src/test/resources/features/Scheme.feature:16[0m
+    [32mGiven [0m[32mcategory '[0m[32m[1mWomen and Child Development[0m[32m' exists[0m                    [90m# SchemeStepdefs.category_Women_and_Child_Development_exists(String)[0m
+    [32mThen [0m[32mUser is able to select category successfully[0m                      [90m# SchemeStepdefs.user_is_able_to_select_category_successfully()[0m
+
+  Scenario: Verify user is able to start the survey after selecting a scheme [90m# src/test/resources/features/Scheme.feature:20[0m
+    [32mGiven [0m[32mscheme '[0m[32m[1mSwadhar[0m[32m' exists[0m                                            [90m# SchemeStepdefs.scheme_Swadhar_exists(String)[0m
+    [32mThen [0m[32mUser clicks on check Eligibility button[0m                             [90m# SchemeStepdefs.user_clicks_on_check_Eligibility_button()[0m
+    [32mThen [0m[32mUser fills phone number '[0m[32m[1m9795868023[0m[32m' and password '[0m[32m[1m123456[0m[32m'[0m          [90m# SchemeStepdefs.user_fills_phone_number_and_password(String,String)[0m
+    [32mThen [0m[32mUser is able to start the survey successfully[0m                       [90m# SchemeStepdefs.user_is_able_to_start_the_survey_successfully()[0m
+
+  Scenario: Verify user is able to apply for a scheme   [90m# src/test/resources/features/Scheme.feature:27[0m
+    [32mGiven [0m[32muser apply scheme for 'Myself'[0m                [90m# SchemeStepdefs.user_apply_scheme_for_Myself()[0m
+    [32mWhen [0m[32muser answers all the survey questions:[0m         [90m# SchemeStepdefs.user_answers_all_the_survey_questions(DataTable)[0m
+    [32mThen [0m[32muser is able to check eligibilty for user[0m      [90m# SchemeStepdefs.user_is_able_to_check_eligibilty_for_user()[0m
+    [32mAnd [0m[32muser is able to apply for a scheme successfully[0m [90m# SchemeStepdefs.user_is_able_to_apply_for_a_scheme_successfully()[0m
+
+  @tearDown
+  Scenario: Verify user is able signout of the application [90m# src/test/resources/features/Scheme.feature:40[0m
+    [32mWhen [0m[32mUser clicks on Logout button[0m                      [90m# SchemeStepdefs.user_clicks_on_Logout_button()[0m
+    [32mThen [0m[32mUser is able to signout successfully[0m              [90m# SchemeStepdefs.user_is_able_to_signout_successfully()[0m

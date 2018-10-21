@@ -1,0 +1,326 @@
+[
+  {
+    "source": "^User clicks on check Eligibility button$",
+    "steps": [
+      {
+        "name": "User clicks on check Eligibility button",
+        "aggregatedDurations": {
+          "average": 0.0000146,
+          "median": 0.0000146
+        },
+        "durations": [
+          {
+            "duration": 0.0000146,
+            "location": "src/test/resources/features/Scheme.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to select Central Delhi district successfully$",
+    "steps": [
+      {
+        "name": "User is able to select Central Delhi district successfully",
+        "aggregatedDurations": {
+          "average": 0.6000892,
+          "median": 0.6000892
+        },
+        "durations": [
+          {
+            "duration": 0.6000892,
+            "location": "src/test/resources/features/Scheme.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user apply scheme for \u0027Myself\u0027$",
+    "steps": [
+      {
+        "name": "user apply scheme for \u0027Myself\u0027",
+        "aggregatedDurations": {
+          "average": 0.3173093,
+          "median": 0.3173093
+        },
+        "durations": [
+          {
+            "duration": 0.3173093,
+            "location": "src/test/resources/features/Scheme.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on Logout button$",
+    "steps": [
+      {
+        "name": "User clicks on Logout button",
+        "aggregatedDurations": {
+          "average": 2.1698986,
+          "median": 2.1698986
+        },
+        "durations": [
+          {
+            "duration": 2.1698986,
+            "location": "src/test/resources/features/Scheme.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^lang \u0027(.*)\u0027 exists$",
+    "steps": [
+      {
+        "name": "lang \u0027English\u0027 exists",
+        "aggregatedDurations": {
+          "average": 0.3847143,
+          "median": 0.3847143
+        },
+        "durations": [
+          {
+            "duration": 0.3847143,
+            "location": "src/test/resources/features/Scheme.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User fills phone number \u0027(.*)\u0027 and password \u0027(.*)\u0027$",
+    "steps": [
+      {
+        "name": "User fills phone number \u00279795868023\u0027 and password \u0027123456\u0027",
+        "aggregatedDurations": {
+          "average": 2.360016,
+          "median": 2.360016
+        },
+        "durations": [
+          {
+            "duration": 2.360016,
+            "location": "src/test/resources/features/Scheme.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to select category successfully$",
+    "steps": [
+      {
+        "name": "User is able to select category successfully",
+        "aggregatedDurations": {
+          "average": 0.0870506,
+          "median": 0.0870506
+        },
+        "durations": [
+          {
+            "duration": 0.0870506,
+            "location": "src/test/resources/features/Scheme.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to select English language successfully$",
+    "steps": [
+      {
+        "name": "User is able to select English language successfully",
+        "aggregatedDurations": {
+          "average": 0.0614298,
+          "median": 0.0614298
+        },
+        "durations": [
+          {
+            "duration": 0.0614298,
+            "location": "src/test/resources/features/Scheme.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^category \u0027(.*)\u0027 exists$",
+    "steps": [
+      {
+        "name": "category \u0027Women and Child Development\u0027 exists",
+        "aggregatedDurations": {
+          "average": 3.0596974,
+          "median": 3.0596974
+        },
+        "durations": [
+          {
+            "duration": 3.0596974,
+            "location": "src/test/resources/features/Scheme.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user answers all the survey questions:$",
+    "steps": [
+      {
+        "name": "user answers all the survey questions:",
+        "aggregatedDurations": {
+          "average": 7.9748612,
+          "median": 7.9748612
+        },
+        "durations": [
+          {
+            "duration": 7.9748612,
+            "location": "src/test/resources/features/Scheme.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to select Delhi state successfully$",
+    "steps": [
+      {
+        "name": "User is able to select Delhi state successfully",
+        "aggregatedDurations": {
+          "average": 0.1287019,
+          "median": 0.1287019
+        },
+        "durations": [
+          {
+            "duration": 0.1287019,
+            "location": "src/test/resources/features/Scheme.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^district \u0027(.*)\u0027 exists$",
+    "steps": [
+      {
+        "name": "district \u0027Central Delhi\u0027 exists",
+        "aggregatedDurations": {
+          "average": 0.2013674,
+          "median": 0.2013674
+        },
+        "durations": [
+          {
+            "duration": 0.2013674,
+            "location": "src/test/resources/features/Scheme.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is able to apply for a scheme successfully$",
+    "steps": [
+      {
+        "name": "user is able to apply for a scheme successfully",
+        "aggregatedDurations": {
+          "average": 5.1283877,
+          "median": 5.1283877
+        },
+        "durations": [
+          {
+            "duration": 5.1283877,
+            "location": "src/test/resources/features/Scheme.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is able to check eligibilty for user$",
+    "steps": [
+      {
+        "name": "user is able to check eligibilty for user",
+        "aggregatedDurations": {
+          "average": 0.0296649,
+          "median": 0.0296649
+        },
+        "durations": [
+          {
+            "duration": 0.0296649,
+            "location": "src/test/resources/features/Scheme.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^scheme \u0027(.*)\u0027 exists$",
+    "steps": [
+      {
+        "name": "scheme \u0027Swadhar\u0027 exists",
+        "aggregatedDurations": {
+          "average": 1.5925186,
+          "median": 1.5925186
+        },
+        "durations": [
+          {
+            "duration": 1.5925186,
+            "location": "src/test/resources/features/Scheme.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^state \u0027(.*)\u0027 exists$",
+    "steps": [
+      {
+        "name": "state \u0027Delhi\u0027 exists",
+        "aggregatedDurations": {
+          "average": 1.3550353,
+          "median": 1.3550353
+        },
+        "durations": [
+          {
+            "duration": 1.3550353,
+            "location": "src/test/resources/features/Scheme.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to start the survey successfully$",
+    "steps": [
+      {
+        "name": "User is able to start the survey successfully",
+        "aggregatedDurations": {
+          "average": 3.0464501,
+          "median": 3.0464501
+        },
+        "durations": [
+          {
+            "duration": 3.0464501,
+            "location": "src/test/resources/features/Scheme.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is able to signout successfully$",
+    "steps": [
+      {
+        "name": "User is able to signout successfully",
+        "aggregatedDurations": {
+          "average": 2.0440644,
+          "median": 2.0440644
+        },
+        "durations": [
+          {
+            "duration": 2.0440644,
+            "location": "src/test/resources/features/Scheme.feature:42"
+          }
+        ]
+      }
+    ]
+  }
+]

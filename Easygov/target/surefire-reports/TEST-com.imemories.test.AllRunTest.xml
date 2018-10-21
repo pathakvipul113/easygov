@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="34" failures="2" name="com.imemories.test.AllRunTest" time="113.874" errors="3" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="iMemories_Smoke"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4e2a9eefd4dbee28"/>
+    <property name="POM_ARTIFACTID" value="HBS_Demo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="HBS_Demo"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\VIPULK~1.000\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="user.name" value="vipulkumarpathak"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="iMemories_Smoke"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8090/job/iMemories_Smoke/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="OneDrive" value="C:\Users\vipulkumarpathak.QAIT.000\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\vipulkumarpathak.QAIT.000\AppData\Local"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="vipulkumarpathak"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8090/job/iMemories_Smoke/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\VIPULK~1.000\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8090/job/iMemories_Smoke/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="QAIT"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_172"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\vipulkumarpathak.QAIT.000"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="USERDNSDOMAIN" value="QAIT.COM"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DLDA1821"/>
+    <property name="POM_GROUPID" value="com.qait.demo"/>
+    <property name="user.home" value="C:\Users\vipulkumarpathak.QAIT.000"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-iMemories_Smoke-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4e2a9eefd4dbee28"/>
+    <property name="HUDSON_URL" value="http://localhost:8090/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\vipulkumarpathak.QAIT.000"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\vipulkumarpathak.QAIT.000\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\vipulkumarpathak.QAIT.000\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4"/>
+    <property name="java.class.path" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;D:\apache-maven-3.5.4-bin\apache-maven-3.5.4/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.4-bin\apache-maven-3.5.4 C:\Users\vipulkumarpathak.QAIT.000\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\vipulkumarpathak.QAIT.000\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\vipulkumarpathak.QAIT.000\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 55963"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\vipulkumarpathak.QAIT.000\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_172/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 94 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4"/>
+    <property name="=D:" value="D:\Jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\VIPULK~1.000\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins"/>
+    <property name="PATH+MAVEN" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8090/job/iMemories_Smoke/3/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\vipulkumarpathak.QAIT.000\Downloads\bbb\iMemories"/>
+    <property name="JOB_URL" value="http://localhost:8090/job/iMemories_Smoke/"/>
+    <property name="LOGONSERVER" value="\\PDC"/>
+    <property name="USERDOMAIN" value="QAIT"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="JENKINS_URL" value="http://localhost:8090/"/>
+    <property name="PROCESSOR_REVISION" value="5e03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\vipulkumarpathak.QAIT.000"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins\workspace\iMemories_Smoke"/>
+    <property name="maven3.interceptor.common" value="C:\Users\vipulkumarpathak.QAIT.000\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="Scenario: Initiate browser" name="When User enter valid username and password" time="0.001"/>
+  <testcase classname="Scenario: Initiate browser" name="Then User is logged in successfully" time="0"/>
+  <testcase classname="Scenario: Initiate browser" name="Scenario: Initiate browser" time="0.001"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="Given User click on Add New Album" time="0"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="Then ADD NEW ALBUM modal is displayed" time="0"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="And Enter Album Title \&apos;create_album_test\&apos; and Description \&apos;testing description\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="And Click the save button" time="0"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="Then User is able to view the newly created Album with Title \&apos;create_album_test\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to create new Album from Album\&apos;s page" name="Scenario: Verify user is able to create new Album from Album\&apos;s page" time="18.392"/>
+  <testcase classname="Scenario: Verify user is able to Edit existing Album\&apos; name from Album\&apos;s page" name="Given Album name \&apos;name album test\&apos; exists" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Edit existing Album\&apos; name from Album\&apos;s page" name="And User changes Album name from \&apos;name_album_test\&apos; to \&apos;random name album test\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Edit existing Album\&apos; name from Album\&apos;s page" name="Then User is able to view the new Album name \&apos;random name album test\&apos;" time="0.004">
+    <failure message="Album name did not changed to :lohg_random name album test" type="java.lang.AssertionError">java.lang.AssertionError: Album name did not changed to :lohg_random name album test
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.imemories.StepDefs.AlbumStepdefs.user_is_able_to_successfully_change_to_new_Album_name_Album_test_(AlbumStepdefs.java:51)
+	at ✽.Then User is able to view the new Album name &apos;random name album test&apos;(src/test/resources/features/Album.feature:20)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Verify user is able to Edit existing Album\&apos; name from Album\&apos;s page" name="Scenario: Verify user is able to Edit existing Album\&apos; name from Album\&apos;s page" time="0.004">
+    <failure message="Album name did not changed to :lohg_random name album test" type="java.lang.AssertionError">java.lang.AssertionError: Album name did not changed to :lohg_random name album test
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.imemories.StepDefs.AlbumStepdefs.user_is_able_to_successfully_change_to_new_Album_name_Album_test_(AlbumStepdefs.java:51)
+	at ✽.Then User is able to view the new Album name &apos;random name album test&apos;(src/test/resources/features/Album.feature:20)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="Given User click on Add New Album" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="Then ADD NEW ALBUM modal is displayed" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="And Enter Album Title \&apos;delete_test\&apos; and Description \&apos;testing description\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="And Click the save button" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="Then Album name \&apos;delete_test\&apos; exists" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="And User click on Inhand menu of \&apos;delete_test\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="And click delete Album option" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="And click YES on Confirmation dialog" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="Then User is able to successfully delete Album name \&apos;delete_test\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" name="Scenario: Verify user is able to Delete an Album from Album\&apos;s page" time="0.001"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Given User click on Add New Album" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Then ADD NEW ALBUM modal is displayed" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="And Enter Album Title \&apos;Album_test_2\&apos; and Description \&apos;testing description\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="And Click the save button" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Given Album name \&apos;Album_test_2\&apos; exists" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Then user click on Inhand menu of \&apos;Album_test_2\&apos;" time="0"/>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Then \&apos;Download Album\&apos; is not displayed in the menu" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.imemories.StepDefs.AlbumStepdefs.download_Album_is_not_displayed_in_the_menu(AlbumStepdefs.java:103)
+	at ✽.Then &apos;Download Album&apos; is not displayed in the menu(src/test/resources/features/Album.feature:42)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.imemories.StepDefs.AlbumStepdefs.download_Album_is_not_displayed_in_the_menu(AlbumStepdefs.java:103)
+	at ✽.Then &apos;Download Album&apos; is not displayed in the menu(src/test/resources/features/Album.feature:42)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" name="Scenario: Verify user is not able to Download Blank Album from Album\&apos;s page" time="6.006">
+    <error message="unknown error: Element &lt;div class=&quot;album-thumbnail-menu-image&quot; data-album-id=&quot;8151207&quot;&gt;&lt;/div&gt; is not clickable at point (162, 301). Other element would receive the click: &lt;a class=&quot;popup-menu-item&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DLDA1821&apos;, ip: &apos;10.0.16.99&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\VIPULK~1.000\AppData\Local\Temp\scoped_dir8892_25058}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4a7fd4d0c67a7a2572113be45eaf92bf" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;album-thumbnail-menu-image&quot; data-album-id=&quot;8151207&quot;&gt;&lt;/div&gt; is not clickable at point (162, 301). Other element would receive the click: &lt;a class=&quot;popup-menu-item&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DLDA1821&apos;, ip: &apos;10.0.16.99&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\VIPULK~1.000\AppData\Local\Temp\scoped_dir8892_25058}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4a7fd4d0c67a7a2572113be45eaf92bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.imemories.keywords.Album.clickInhandMenuOfAlbum(Album.java:141)
+	at com.imemories.StepDefs.CucumberHooks.deleteAlbum1(CucumberHooks.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at com.imemories.test.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:57)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:234)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:133)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:188)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:166)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:101)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+</error>
+    <system-out>Scenario ***failed
+Save Image File Path : C:\Users\vipulkumarpathak.QAIT.000\Downloads\bbb\iMemories\target\Screenshots\Failure_Screenshot_Screenshotcucumber.runtime.ScenarioImpl@476aac9.jpg
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Close browser session" name="Given User close the browser" time="0"/>
+  <testcase classname="Scenario: Close browser session" name="Scenario: Close browser session" time="3.278"/>
+</testsuite>
