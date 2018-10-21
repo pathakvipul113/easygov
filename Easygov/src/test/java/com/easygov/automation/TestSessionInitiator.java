@@ -12,15 +12,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.easygov.automation.utils.TakeScreenshot;
-import com.easygov.keywords.Album;
-import com.easygov.keywords.AlbumMediaAssetView;
-import com.easygov.keywords.Discs;
-import com.easygov.keywords.FullScreen;
-import com.easygov.keywords.LoginPage;
+
 import com.easygov.keywords.Scheme;
-import com.easygov.keywords.Signout;
-import com.easygov.keywords.Signup;
-import com.easygov.keywords.Upload;
+
 import com.easygov.keywords.YamlInformationProvider;
 
 public class TestSessionInitiator {
@@ -42,14 +36,7 @@ public class TestSessionInitiator {
 	/**
 	 * Initiating the page objects
 	 */
-	public LoginPage login;
-	public Signup signup;
-	public Album album;
-	public FullScreen fullscreen;
-	public Signout signout;
-	public Upload upload;
-	public Discs discs;
-	public AlbumMediaAssetView mediaassetview;
+
 	public Scheme scheme;
 	
 	
@@ -61,15 +48,8 @@ public class TestSessionInitiator {
 
 	private void _initPage() {
 		
-		login = new LoginPage(driver);
-		signup = new Signup(driver);
-		album = new Album(driver);
-		fullscreen = new FullScreen(driver);
+		
 		yaml = new YamlInformationProvider();
-		signout = new Signout(driver);
-		upload = new Upload(driver);
-		discs = new Discs(driver);
-		mediaassetview = new AlbumMediaAssetView(driver); 
 		scheme= new Scheme(driver);
 	}
 
